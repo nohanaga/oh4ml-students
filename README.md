@@ -1,4 +1,4 @@
-# OpenHack for MLOps
+# OpenHack for MLOps (for Student)
 
 ## Introduction
 
@@ -39,10 +39,3 @@ MLOps は、データサイエンティストやアプリ開発者が ML/AI モ�
 
 ## Additional Contents
 この OpenHack は、ETL/ELT などのデータインジェストプロセスによってデータウェアハウスに蓄積されたデータを活用するシナリオです。もし、データインジェストプロセスやデータウェアハウスソリューションの構築を体験されたい場合は「OpenHack for Modern Data Warehousing」の受講をおすすめします。Modern Data Warehousing と MLOps を経験することで、データ分析に関する End-to-End の技術を習得できます。
-
-## Contributed by
- - [microsoft/WhatTheHack 032-MLOpsFromScratch](https://github.com/microsoft/WhatTheHack/tree/master/032-MLOpsFromScratch)
- - [microsoft/MLOpsPython](https://github.com/microsoft/MLOpsPython)
- - [notanaha/oh4ml-lite](https://github.com/notanaha/oh4ml-lite)
- - [tsmatsuz/oh4ml-lite-github-workflow](https://github.com/tsmatsuz/oh4ml-lite-github-workflow)
- - [tsmatsuz/oh4ml-lite-cli2](https://github.com/tsmatsuz/oh4ml-lite-cli2)
