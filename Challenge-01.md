@@ -4,7 +4,7 @@
 
 ## Introduction
 
-この課題の目的は、時系列 [ARIMA](https://ja.wikipedia.org/wiki/%E8%87%AA%E5%B7%B1%E5%9B%9E%E5%B8%B0%E5%92%8C%E5%88%86%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87%E3%83%A2%E3%83%87%E3%83%AB) モデリングを使って日々の取引を予測することです。この課題には、[AdventureWorks](https://docs.microsoft.com/previous-versions/sql/sql-server-2008/ms124501(v=sql.100)) データベースからのトランザクションデータの処理、分析、ARIMA モデルの作成と登録、そして最後に Azure Container Instances(ACI) へのモデルのデプロイが含まれます。このライフサイクル全体は、[Azure Machine Learning Python SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py) を使用して行われます。
+この課題の目的は、時系列 [ARIMA](https://ja.wikipedia.org/wiki/%E8%87%AA%E5%B7%B1%E5%9B%9E%E5%B8%B0%E5%92%8C%E5%88%86%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87%E3%83%A2%E3%83%87%E3%83%AB) モデリングを使って日々の取引を予測することです。この課題には、[AdventureWorks](https://docs.microsoft.com/previous-versions/sql/sql-server-2008/ms124501(v=sql.100)) データベースからのトランザクションデータの処理、分析、ARIMA モデルの作成と登録、そして最後に Azure Container Instances(ACI) へのモデルのデプロイが含まれます。このライフサイクル全体は、[Azure Machine Learning Python SDK v1](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py) を使用して行われます。
 
 時系列とは、一定の時間ごとに時間順に収集またはインデックス化された一連のデータポイントのことです。等間隔に連続した時点で取得された一連のデータです。例えば、1時間ごとに収集された気象データ、1日ごとに収集された株価データ、1分ごとに収集されたセンサーデータなどが挙げられます。その結果、時系列データセットには傾向や季節性が見られます。このような時間的な性質が、他の従来のデータセットとは異なり、異なるタイプのモデリングを保証しているのです。予測は機械学習で最も一般的なタスクの 1 つであるため、このチャレンジではこれを体験します。
 
