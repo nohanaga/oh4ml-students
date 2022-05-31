@@ -39,7 +39,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 1. コンピューティング インスタンスの作成（汎用 Standard_D2s_v3 推奨）
 1. コンピューティング クラスターの作成（汎用 Standard_D2s_v3 推奨）
 
-<details><summary>ご自分のマシン上で作業する場合（オプション）</summary><div>
+<details><summary>ご自分のマシン上で作業する場合（オプション、今回は対象外）</summary><div>
 
 - Python のインストール、バージョンは最低でも 3.6.5 です。データサイエンス系の作業には Anaconda がより好ましい。
   - Anaconda - <https://docs.anaconda.com/anaconda/install/windows/>
@@ -63,7 +63,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 
 - Azure Machine Learning ワークスペースが Azure サブスクリプションに作成されている。
 - Azure Machine Learning ワークスペースにコンピューティング インスタンスおよびコンピューティング クラスターが作成されている。
-- Python がインストールされており、Python コードを実行するための IDE がある。（オプション）
+- Python がインストールされており、Python コードを実行するための IDE がある。（オプション、今回は対象外）
 
 ## 学習リソース
 - [Azure Machine Learning のしくみ:アーキテクチャと概念](https://docs.microsoft.com/azure/machine-learning/v1/concept-azure-machine-learning-architecture)

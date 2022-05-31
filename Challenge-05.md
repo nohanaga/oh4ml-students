@@ -17,8 +17,8 @@ MLOps オーケストレーションを実現するための[複数のテクノ�
 
 1. モデルのトレーニングにフォーカスした自動化の場合、機械学習パイプラインのトリガー機能を使用します。
 1. Azure Logic App を使用してより複雑なトリガーを実装します。
-1. Azure DevOps の Azure Pipelines を使ってパイプラインを実装しコードコミット駆動を使用します。
 1. Github Actions の Workflow を使ってパイプラインを実装しコードコミット駆動を使用します。
+1. Azure DevOps の Azure Pipelines を使ってパイプラインを実装しコードコミット駆動を使用します。
 
 ## Hack
 ### 1. 機械学習パイプライン
@@ -31,16 +31,15 @@ MLOps オーケストレーションを実現するための[複数のテクノ�
 ### 2. Azure Logic App
 [複雑なトリガーに Azure Logic Apps を使用する](https://docs.microsoft.com/azure/machine-learning/how-to-trigger-published-pipeline#use-azure-logic-apps-for-complex-triggers) を参照して実装します。
 
-### 3. Azure DevOps
-[Azure Pipelines を使用してデータの準備、機械学習モデルのトレーニング、デプロイ、監視を行う](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-machine-learning?context=azure%2Fmachine-learning%2Fcontext%2Fml-context&view=azure-devops&tabs=classic) を参照して実装します。Azure Pipelines を使えば今回作成した機械学習パイプラインと同等のものを実装できますし、コードコミット駆動やリリース ゲートと承認機能を追加することができます。経験のあるエンジニアは Azure Pipelines でトレーニング・デプロイパイプラインを構築しても構いませんが、今回は機械学習パイプラインの起動のみにフォーカスします。
-
-  **注意:** 無料アカウントで Azure DevOps を使用している場合パイプライン実行時に Requiest Form があり申請に 2,3 日かかります。**すでにパイプラインが実行可能な方のみ**選択してください。
-
-### 4. Github Actions
+### 3. Github Actions
 [Azure Machine Learning で GitHub Actions を使用する](https://docs.microsoft.com/azure/machine-learning/how-to-github-actions-machine-learning?view=azure-devops) を参照して実装します。ワークフローの構築に使用するアセットは、[こちら](https://github.com/tsmatsuz/oh4ml-lite-github-workflow)のリポジトリを使用してください。
 
   **注意:** すでに**有効な GitHub アカウントを所有している方**のみ選択してください。
 
+### 4. Azure DevOps
+[Azure Pipelines を使用してデータの準備、機械学習モデルのトレーニング、デプロイ、監視を行う](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-machine-learning?context=azure%2Fmachine-learning%2Fcontext%2Fml-context&view=azure-devops&tabs=classic) を参照して実装します。Azure Pipelines を使えば今回作成した機械学習パイプラインと同等のものを実装できますし、コードコミット駆動やリリース ゲートと承認機能を追加することができます。経験のあるエンジニアは Azure Pipelines でトレーニング・デプロイパイプラインを構築しても構いませんが、今回は機械学習パイプラインの起動のみにフォーカスします。
+
+  **注意:** 無料アカウントで Azure DevOps を使用している場合パイプライン実行時に Requiest Form があり申請に 2,3 日かかります。**すでにパイプラインが実行可能な方のみ**選択してください。
 
 
 ## 成功基準
