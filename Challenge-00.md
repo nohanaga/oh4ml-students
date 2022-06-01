@@ -34,7 +34,7 @@ Azure Machine Learning ワークスペースと各アセットとリソースに
 - 本コンテンツは Azure ML SDK v1 向けに作成されています。
 
 ## Hack
-以下の Azure Machine Learning アセットとリソースを作成します。Azure Machine Learning スタジオ UI から作成しても、Azure Machine Learning SDK から作成してもかまいません。
+以下の Azure Machine Learning アセットとリソースを作成します。[Azure Portal](https://portal.azure.com/) から作成しても、Azure Machine Learning [スタジオ UI](https://ml.azure.com/) から作成しても、Azure Machine Learning SDK から作成してもかまいません。
 1. [Azure Machine Learning ワークスペース](https://ml.azure.com/)の作成。これは機械学習モデルの実験、学習、デプロイに使用する、クラウド上の基礎的なリソースです。
 1. コンピューティング インスタンスの作成（汎用 Standard_D2s_v3 推奨）
 1. コンピューティング クラスターの作成（汎用 Standard_D2s_v3 推奨）
